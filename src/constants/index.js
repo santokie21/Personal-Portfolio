@@ -1,28 +1,28 @@
 import {
-  mobile,
   backend,
+  carrent,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  jobit,
+  meta,
+  mobile,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  starbucks,
+  tailwind,
+  tesla,
   threejs,
+  tripguide,
+  typescript,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +31,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -262,4 +262,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };

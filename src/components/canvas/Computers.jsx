@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 
 import CanvasLoader from "../Loader";
 
@@ -10,10 +10,10 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
+      <hemisphereLight intensity={1} groundColor="white" />
       <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
+        position={[20, 50, 10]}
+        angle={12}
         penumbra={1}
         intensity={1}
         castShadow
