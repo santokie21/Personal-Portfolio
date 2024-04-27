@@ -29,6 +29,12 @@ const EducationCard = ({ education }) => (
   >
     <div>
       <h3 className="text-white text-[24px] font-bold">{education.title}</h3>
+      <p
+        className="text-secondary text-[16px] font-semibold"
+        style={{ margin: 0 }}
+      >
+        {education.company_name}
+      </p>
     </div>
   </VerticalTimelineElement>
 );

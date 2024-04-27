@@ -9,20 +9,19 @@ import {
   html,
   javascript,
   jobit,
-  meta,
   mobile,
   mongodb,
   nodejs,
   reactjs,
   redux,
-  shopify,
-  starbucks,
   tailwind,
-  tesla,
   threejs,
   tripguide,
   typescript,
   web,
+  gandhinagar,
+  adhiyaman,
+  rmd,
 } from "../assets";
 
 export const navLinks = [
@@ -117,8 +116,8 @@ const technologies = [
 const education = [
   {
     title: "B.Tech (Information Technology)",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "R.M.D. Engineering College",
+    icon: rmd,
     iconBg: "#383E56",
     date: "November 2020 - March 2024",
     points: [
@@ -130,8 +129,8 @@ const education = [
   },
   {
     title: "Higher Secondary School",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "Adhiyaman Matric Hr Sec School",
+    icon: adhiyaman,
     iconBg: "#E6DEDD",
     date: "March 2020",
     points: [
@@ -143,8 +142,8 @@ const education = [
   },
   {
     title: "Secondary School",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Gandhi Nagar Matric Hr Sec School",
+    icon: gandhinagar,
     iconBg: "#383E56",
     date: "March 2018",
     points: [
