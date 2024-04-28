@@ -1,27 +1,24 @@
 import {
+  adhiyaman,
+  angular,
   backend,
-  carrent,
-  creator,
+  bootstrap,
   css,
   docker,
   figma,
+  gandhinagar,
   git,
   html,
   javascript,
-  jobit,
   mobile,
   mongodb,
   nodejs,
-  reactjs,
-  redux,
+  projectLogo,
+  rmd,
+  spring,
   tailwind,
-  threejs,
-  tripguide,
   typescript,
   web,
-  gandhinagar,
-  adhiyaman,
-  rmd,
 } from "../assets";
 
 export const navLinks = [
@@ -32,6 +29,10 @@ export const navLinks = [
   {
     id: "education",
     title: "Education",
+  },
+  {
+    id: "works",
+    title: "Works",
   },
   {
     id: "contact",
@@ -76,12 +77,16 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Spring Boot",
+    icon: spring,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
@@ -94,10 +99,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -118,27 +119,16 @@ const education = [
     title: "B.Tech (Information Technology)",
     company_name: "R.M.D. Engineering College",
     icon: rmd,
+
     iconBg: "#383E56",
     date: "November 2020 - March 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
   {
     title: "Higher Secondary School",
     company_name: "Adhiyaman Matric Hr Sec School",
     icon: adhiyaman,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "March 2020",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
   {
     title: "Secondary School",
@@ -146,71 +136,62 @@ const education = [
     icon: gandhinagar,
     iconBg: "#383E56",
     date: "March 2018",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "",
+    name: "",
+    designation: "",
+    company: "",
+    image: "",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Object detection in e_Commerece",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that enables users to search for an object in e-commerce website using live camera feed by using yolov8 model.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Spring-boot",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: projectLogo,
+    source_code_link: "https://github.com/santokie21/e-commerce-frontend",
   },
   {
-    name: "Job IT",
+    name: "Virtual Library Experience",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A virtual library experience that allows users to browse, search, and read books online. Users can also create and manage their own library. Admin can also view the statistics of the library.",
     tags: [
       {
-        name: "react",
+        name: "spring-boot",
         color: "blue-text-gradient",
       },
       {
@@ -218,33 +199,34 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: projectLogo,
+    source_code_link:
+      "https://github.com/santokie21/Library-Management-System-Frontend",
   },
   {
-    name: "Trip Guide",
+    name: "Store Front",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An e-commerce store front that allows users to browse, search, and purchase products online. Admin can also manage the products and orders. Users can also view the order history.",
     tags: [
       {
-        name: "nextjs",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: projectLogo,
+    source_code_link: "https://github.com/santokie21/Store-Front-client",
   },
 ];
 
